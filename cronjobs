@@ -1,0 +1,2 @@
+* * * * * cd /var/app/jobs && /var/app/v-env/bin/python3.8 file_transfer.py
+
