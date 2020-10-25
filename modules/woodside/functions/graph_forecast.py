@@ -16,5 +16,5 @@ def graph_forecast(woodside_data, woodside_forecast):
     plt.plot(x2, y2, label="Forecast")
     plt.legend()
 
-    plt.savefig('./images/brent_forecast.png')
+    plt.savefig('./images/woodside_forecast.png')
     plt.show()
