@@ -6,10 +6,8 @@ def upload_image():
 
     try:
         s3.upload_file(
-            Filename="./test.txt",
+            Filename="./images/brent_forecast.png",
             Bucket="www.quanteverest-dev.com",
-            Key="images/test.txt")
+            Key="images/brent_forecast.png")
     except Exception as e:
-        print("There has been an error in uploading the image to S3")
-
-upload_image()
+        print('Error uploading to S3: ', e)

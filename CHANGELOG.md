@@ -1,4 +1,9 @@
-## [0.0.4] - Unreleased
+## [0.0.5] - 25/12/2020
+
+### Added
+- Save Woodside price forecast to S3
+
+## [0.0.4] - 14/10/2020
 
 ### Added
 - Run docker cronjobs in EC2
@@ -11,12 +16,12 @@
 ## [0.0.2] - 11/10/2020
 
 ### Added
-- Switch to Flask
+- Remove Flask
 
 ## [0.0.1] - 08/10/2020
 
 ### Added
-- Introduce Django
+- Introduce Flask
 
 ## [0.0.0] - 08/10/2020
 
